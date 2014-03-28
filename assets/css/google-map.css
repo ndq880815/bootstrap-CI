@@ -1,0 +1,28 @@
+#map {
+   position: fixed;
+   display: block;
+   margin: 5px 5px 5px 5px;
+}
+
+#task #map {
+   left: 50%;
+   width: calc(50% - 10px);
+   height: calc(100% - 10px);
+}
+
+#map .input-group { display: flex; }
+
+#map .input-group .text-box { float: none; }
+
+#map .btn-search {
+   padding-top: 4px;
+   padding-bottom: 4px;
+   border-radius: 0;
+}
+
+#map-canvas {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+   margin-top: 5px;
+}

@@ -1,0 +1,47 @@
+.navbar { background-color: #000; }
+
+.container { margin-left: 20px; }
+
+.logo {
+	width: 10%;
+	height: 100%;
+	padding: 25px;
+	display: inline-block;
+	background: url('../img/logo.png') no-repeat center;
+	background-size: contain;
+}
+
+.navbar-header {
+	width: 150px;
+	height: 100%;
+	display: inline-block;
+}
+
+.container .collapse {
+	float: left;
+}
+
+.container .btn-fullscreen {
+	float: left;
+	height: 25px;
+	padding: 1px 5px 1px 5px;
+	margin: 12px 5px 12px 0;
+}
+
+.container .input-group {
+	float: left;
+	display: flex;
+	padding-top: 12px;
+}
+
+.container .input-group .form-control {
+	height: 25px;
+	padding: 5px 10px 5px 10px;
+	font-size: 14px;
+}
+
+.container .btn-search {
+	display: inline;
+   padding: 0 10px 0 5px;
+   border-radius: 0 4px 4px 0;
+}
